@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Biblioteca Centrală",
+    "type": "Studiu",
+    "location": "Corp A, Etaj 1",
+    "program": "08:00 - 20:00",
+    "tags": ["studiu", "liniște", "cărți"]
+  },
+  {
+    "name": "Cantina Studențească",
+    "type": "Food",
+    "location": "Lângă Cămin C1",
+    "program": "11:00 - 18:00",
+    "tags": ["mâncare", "social"]
+  },
+  {
+    "name": "Sala de Evenimente",
+    "type": "Social",
+    "location": "Corp B, Parter",
+    "program": "Evenimente ocazionale",
+    "tags": ["conferințe", "workshop"]
+  }
+]

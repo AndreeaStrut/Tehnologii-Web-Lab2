@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Campus Info Hub | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">CampusHub.</a>
+            <div class="links">
+                <a href="pages/library.html">Bibliotecă</a>
+                <a href="pages/cafeteria.html">Cantină</a>
+                <a href="pages/events.html">Evenimente</a>
+                <a href="https://maps.google.com" target="_blank">Locație Google</a>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Descoperă Campusul Tău</h1>
+        <p>Găsește spații de studiu, meniuri delicioase și evenimente într-un singul loc.</p>
+        <a href="#resources" class="btn-jump">Explorează Resurse</a>
+    </header>
+
+    <main id="resources">
+        <div class="controls">
+            <h3>Filtrează după Tip</h3>
+            <div class="filter-group">
+                <button onclick="filterByType('all')">Toate</button>
+                <button onclick="filterByType('Studiu')">📚 Studiu</button>
+                <button onclick="filterByType('Food')">🍕 Food</button>
+            </div>
+            <h3>Filtrează după Tag-uri</h3>
+            <div id="tagCloud" class="tag-cloud"></div>
+        </div>
+
+        <div id="resourceContainer" class="grid-container">
+            </div>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
